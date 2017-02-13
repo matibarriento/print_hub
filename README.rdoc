@@ -5,12 +5,16 @@ Web application for manage and print documents
 == Installation Guide.
 
 Previously run:
-- sudo apt-get install cups-bsd # Extra Cups command line utilities
-- sudo apt-get install libcups2-dev # Cups gem dependency (Ubuntu 12.04)
-- sudo apt-get install libxslt1-dev # Nokogiri gem dependency
-- sudo apt-get install cups-pdf # Virtual PDF printer
-- sudo apt-get install postgresql # Core database
-- sudo apt-get install imagemagick libmagickwand-dev # Rmagick gem dependency
+- sudo apt-get install ruby gem cups-bsd libcups2-dev libxslt1-dev cups-pdf postgresql imagemagick libmagickwand-dev
+
+  -   cups-bsd # Extra Cups command line utilities
+  -   libcups2-dev # Cups gem dependency (Ubuntu 12.04)
+  -   libxslt1-dev # Nokogiri gem dependency
+  -   cups-pdf # Virtual PDF printer
+  -   postgresql # Core database
+  -   imagemagick libmagickwand-dev # Rmagick gem dependency
+
+- sudo gem install bundle
 - cd projects/print_hub
 - bundle install
 

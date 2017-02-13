@@ -5,8 +5,9 @@ Web application for manage and print documents
 == Installation Guide.
 
 Previously run:
-- sudo apt-get install ruby gem cups-bsd libcups2-dev libxslt1-dev cups-pdf postgresql imagemagick libmagickwand-dev
-
+- sudo apt-get install ruby ruby-dev gem cups-bsd libcups2-dev libxslt1-dev cups-pdf postgresql imagemagick libmagickwand-dev libpq-dev
+  -   ruby ruby-dev # For RedCloth
+  -   gem # For Ruby packages
   -   cups-bsd # Extra Cups command line utilities
   -   libcups2-dev # Cups gem dependency (Ubuntu 12.04)
   -   libxslt1-dev # Nokogiri gem dependency
@@ -15,6 +16,8 @@ Previously run:
   -   imagemagick libmagickwand-dev # Rmagick gem dependency
 
 - sudo gem install bundle
+- sudo gem install RedCloth
+- sudo gem install pg -v '0.18.4
 - cd projects/print_hub
 - bundle install
 

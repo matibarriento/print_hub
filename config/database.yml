@@ -4,6 +4,9 @@ defaults: &defaults
   pool: 5
   username: print_hub
   password: print_hub
+  host: postgres
+  port: 5432
+
 
 development:
   <<: *defaults

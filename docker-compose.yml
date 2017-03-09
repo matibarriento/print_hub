@@ -9,6 +9,6 @@ app:
     - postgres
   env_file: .env
 postgres:
-  image: postgres
+  image: postgres:9.4
   ports:
     - "5432"

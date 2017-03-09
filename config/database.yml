@@ -2,8 +2,8 @@ defaults: &defaults
   adapter: postgresql
   encoding: utf8
   pool: 5
-  username: print_hub
-  password: print_hub
+  username: postgresql
+  password: 
   host: postgres
   port: 5432
 
